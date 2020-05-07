@@ -29,7 +29,6 @@ resource "aws_instance" "Terraform_CICD_Instance" {
     aws_vpc.CICDvpc.default_security_group_id]
   subnet_id = aws_subnet.TerraformCICD_Subnet.id
   availability_zone = "us-east-1a"
-  key_name = "MyKey"
   tags = {
     Name = "Terraform_CICD"
   }
