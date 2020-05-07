@@ -1,8 +1,8 @@
 provider "aws" {
 
   region = "us-east-1"
-  access_key = "AKIA46S6PAL3IFGP2YLA"
-  secret_key = "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"
+//  access_key = "AKIA46S6PAL3IFGP2YLA"
+//  secret_key = "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"
 }
 
 resource "aws_vpc" "CICDvpc" {
