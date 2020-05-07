@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "${var.AWS_ACCESS_KEY_ID}"
-  secret_key = "${var.AWS_SECRET_ACCESS_KEY}"
+  access_key = "AKIA46S6PAL3HWIUHUWZ"
+  secret_key = "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"
 }
 
 resource "aws_vpc" "CICDvpc" {
