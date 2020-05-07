@@ -1,5 +1,4 @@
 provider "aws" {
-
   region = "us-east-1"
 //  access_key = "AKIA46S6PAL3IFGP2YLA"
 //  secret_key = "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"
@@ -14,6 +13,7 @@ resource "aws_vpc" "CICDvpc" {
     Name = "main"
   }
 }
+
 resource "aws_subnet" "TerraformCICD_Subnet" {
   cidr_block = "10.0.1.0/24"
   vpc_id = aws_vpc.CICDvpc.id
