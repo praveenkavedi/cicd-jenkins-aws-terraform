@@ -31,7 +31,7 @@ resource "aws_instance" "Terraform_CICD_Instance" {
   key_name = "N.Virginia Key"
   availability_zone = "us-east-1a"
   tags = {
-    Name = "Terraform_CICD"
+    Name = "Anitha_Instance"
   }
 }
 
